@@ -1,0 +1,170 @@
+/*DEFAULT*/
+*{
+box-sizing:border-box;
+}
+
+:root{
+--white:#fff;
+--darkred:#cd2027;
+--darkblue:#061221;
+}
+
+body{
+margin: 0;
+overflow-x: hidden;
+background-image: linear-gradient(#962eb3 , #381342);
+color:#fff;
+font-family: 'Source Sans Pro', sans-serif;
+}
+
+a,li,button,i,.button{
+text-decoration: none;
+outline: none !important;
+list-style: none;
+transition: 0.5s;
+}
+
+.title{
+font-family: 'Merriweather', serif;
+font-size:2em;
+font-weight:600;
+}
+
+.sub-title{
+font-size:1.3em;
+font-weight:200;
+}
+/*TOP NAVIGATION*/
+header{
+position:fixed;
+top:2rem;
+width:100%;
+z-index:99999;
+transition:0.5s;
+}
+
+.topnav {
+overflow: hidden;
+background-color: white;
+border-radius: 10px;
+width:75%;
+margin:auto; 
+box-shadow:0px 6px 16px -6px rgba(1,1,1,0.7);
+transition:0.5s;
+}
+
+.topnav a {
+float: left;
+display: block;
+color: black;
+text-align: center;
+padding: 24px 16px;
+margin:auto 1rem;
+text-decoration: none;
+font-size: 20px;
+position:relative;
+}
+
+/*--------------------------------------------------------------
+# Hero Section
+--------------------------------------------------------------*/
+#hero {
+  width: 100%;
+  position: relative;
+  background: url("../img/hero-bg.jpg") center bottom no-repeat;
+  background-size: cover;
+  padding: 200px 0 120px 0;
+}
+
+@media (max-width: 991px) {
+  #hero {
+    padding: 140px 0 60px 0;
+  }
+}
+
+@media (max-width: 574px) {
+  #hero {
+    padding: 100px 0 20px 0;
+  }
+}
+
+#hero .hero-img {
+  width: 50%;
+  float: right;
+}
+
+@media (max-width: 991px) {
+  #hero .hero-img {
+    width: 80%;
+    float: none;
+    margin: 0 auto 25px auto;
+  }
+}
+
+#hero .hero-info {
+  width: 50%;
+  float: left;
+}
+
+@media (max-width: 991px) {
+  #hero .hero-info {
+    width: 80%;
+    float: none;
+    margin: auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767px) {
+  #hero .hero-info {
+    width: 100%;
+  }
+}
+
+#hero .hero-info h2 {
+  color: #fff;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#hero .hero-info h2{
+  color: white;
+}
+
+@media (max-width: 767px) {
+  #hero .hero-info h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+
+#hero .hero-info .btn-get-started{
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: bl;
+  align-items: center;
+}
+
+#hero .hero-info .btn-get-started {
+  background: #e8e548;
+  border: 2px solid #403e39;
+  color: black;
+  align-items: center;
+}
+
+#hero .hero-info .btn-get-started:hover {
+  background: none;
+  border-color: #fff;
+  color: #fff;
+}
+
+/*start - Portfolio*/
+
